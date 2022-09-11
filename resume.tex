@@ -1,0 +1,263 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.3in,top=0.25in,right=0.3in,bottom=0.25in]{geometry} % Document margins
+\usepackage{multicol}
+
+\name{Ryan Belmont} % Your name
+\address{(715)~$\cdot$~225~$\cdot$~9169 \\ ryanbelmont5@gmail.com} % Your phone number and email
+%
+\begin{document}
+
+\vspace*{-\baselineskip}
+
+%----------------------------------------------------------------------------------------
+%    OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+
+
+%\begin{rSection}{Objective}
+%\smallskip
+%Driven computer engineering student with proven leadership and creative problem solving skills. Passionate about algorithms and low level systems programming in the UNIX environment.
+
+
+%\end{rSection}
+
+ %----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+	\smallskip
+	{\bf University of Minnesota College of Science and Engineering} \hfill {\bf{\em Expected Graduation: 2024}} \\ 
+	Predicted major: Computer Engineering  \hfill {\bf{\em GPA: 3.87}}\\
+	
+
+\end{rSection}
+\vspace*{-\baselineskip}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Work Experience}
+
+
+
+	% Viking / AME
+	\begin{rSubsection}{Electrical Summer Intern}{\bf  Summer 2021}{Atlantic Marine Electronics}{Riviera Beach, Florida}\smallskip
+	
+		
+		\item I pursued my long standing passion for deep sea fishing by participating in a summer long internship program to familiarize myself with the electronic components required to safely and efficiently operate sport fishing yachts
+		
+		\item Developed and improved my robust interpersonal and technical skills by working hands on with both customers and employees to diagnose, analyze, and resolve a wide array of electrical and technical issues in the sport fishing industry
+	
+		\item Worked on a team of dedicated and skilled electricians to repair, maintain, and upgrade electrical networks on sport yachts
+	
+	\end{rSubsection}
+
+		
+	%Viking year 2
+	%\begin{rSubsection}{Marine Electronics Summer Intern}{\bf  May 2019 - September 2019}{Viking Yacht Company (Atlantic Marine Electronics)}{Riviera Beach, Florida}\smallskip	
+	%	\item Worked with a small team of dedicated electricians to repair, maintain, and upgrade the electrical networks on sport fishing yachts	
+	%	\item Developed strong personal skills by working hands on with customers to diagnose and resolve a wide array of electrical and technical issues	
+	%	\item Performed professional installation of marine electronics such as satellite dishes, receivers, radars, transducers, and radios	
+	%\end{rSubsection}
+	
+	%Viking Year 1
+	%\begin{rSubsection}{Marine Mechanics and Management Summer Intern}{\bf  May 2017 - September 2017}{Viking Yacht Company}{Riviera Beach, Florida}\smallskip	
+	%	\item Designed and maintained mechanical, structural, and electrical features on large sea water vessels	
+	%	\item Participated in a rotational program designed to fully familiarize myself with the company and it's procedures	
+	%	\item Consistently communicated with both clients and employees to help provide company behavior that ensured the continuous satisfaction of our customers		
+	%\end{rSubsection}
+	
+	
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Design Projects}
+	
+	%Chess Assist
+	\begin{rSubsection}{Chess-Assist - Language: Java}{\bf June 2021 - Present}{}{}
+		
+		\item When complete, Chess-Assist will be a comprehensive tool designed to assist chess players with studying and drilling the opening phase of chess theory where there is a universally excepted but often complex "best" move order at the start of a game
+		
+		\item In its current state, Chess-Assist is a fully functioning chess application that allows for two player games via the command line
+		
+		\item Future and current plans for Chess-Assist are to integrate communication with a python program which will run the Stockfish chess engine, allowing the user to play single player against known best moves for the opponent. The chess engine will also analyze all moves made by the user, and when the user makes a move that is considered sub-optimal Chess-Assist will automatically restart the current opening line. This will allow users to get fast repetitions with immediate feedback when drilling new openings
+		
+		\item Chess-Assist is a designed around object oriented Java with logical inheritance for each component of the game
+		
+	\end{rSubsection}
+	
+	%jOS
+	\begin{rSubsection}{32 Bit Operating System - Language: C}{\bf February 2019 - May 2019}{}{}
+		
+		\item Worked with a partner to design a simple 32 bit operating system using C and IA-32 assembly without any library dependencies
+		
+		\item Gained an intensive understanding of low level programming and the importance of efficient and accurate memory management
+		
+		\item Explored the concept of context switching by implementing a round-robin interrupt driven preemptive thread scheduler
+		
+		\item Utilized C pointers and structures to implement a functioning ext style Ram Disk file system with read and write capability
+		
+	\end{rSubsection}
+
+
+	%White Box Fuzzer
+	%\begin{rSubsection}{White Box Fuzzer - Language: Java}{\bf March 2019 - May 2019}{}{}
+	%	\item Partnered with a team to design a security application using Java for finding vulnerabilities in source code
+	%	\item Application performs static analysis on source code to determine input parameters that attempt to exploit all paths of execution within the program as a means of validating the security of the source code under analysis
+	%	\item Generated a report on the data structures and algorithms used which was presented to an audience of 60 people
+	%\end{rSubsection}
+
+
+	%BOOTLOADER
+	%\begin{rSubsection}{Memory Probing Boot Code}{\bf 	February 2019}{}{}
+	%	\item Assembled and linked boot code into the MBR of a virtual disk
+	%	\item Applied knowledge of BIOS interrupts and VGA 	memory to detect and display available system memory
+	%\end{rSubsection}
+
+	
+	
+	%Linux Kernel Loadable Module
+	%\begin{rSubsection}{Linux Kernel Loadable Keyboard Driver}{\bf January 2018 - February 2018}{}{}
+	%	\item Developed an interrupt driven keyboard device driver by utilizing an understanding of hardware interrupts and Linux loadable kernel modules
+	%\end{rSubsection}
+	
+	
+	%Vaporizer for 908 Mass Spectrometer
+	%\begin{rSubsection}{Vaporizer For 908 Mass Spectrometer}{\bf September 2017 - December 2017}{}{}
+		%\item Designed and fabricated a powder vaporizing device for use with a mass spectrometer
+		%\item Programmed the Arduino micro-controller to maintain proper temperature while managing user input/output
+	%\end{rSubsection}
+	
+	
+	%Binary File Descriptor Library
+	%\begin{rSubsection}{Binary File Descriptor Libraries}{\bf September 2018 - October 2018}{}{}
+	%\item Developed static and dynamic libraries for the manipulation and analysis of binary files
+	%\item Created libraries that functioned similar to objdump and objcopy UNIX commands
+	%\end{rSubsection}
+	
+	
+	%ASTRONAUT GAME
+	%\begin{rSubsection}{Astronaut Game for UNIX Shell}{\bf October 2017 - December 2017}{}{}
+	%\item Utilized object oriented programming to develop an interactive game for UNIX Shell
+	%\end{rSubsection}
+	%\vspace*{-\baselineskip}
+	
+\end{rSection}
+
+\begin{rSection}{Leadership}
+	
+	\begin{rSubsection}{Founding Father - Phi Kappa Tau Fraternity}{\bf 2017 - 2020}{Recruitment Chairman (2019)}{Boston University}
+		\item Founding father of PKT's Zeta Pi Chapter in Boston, MA (Chartered October 2018 - IFC Recognized 2020)
+		\item Organized and managed recruitment events, increasing our total membership by over  30\% in one calendar year
+		\item Participated in weekly E-Board and Chapter meetings to ensure consistent and smooth fraternal operations
+	\end{rSubsection}
+	
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Applicable Skills}
+	
+	\begin{multicols}{4}
+		
+		$\cdot$ C/C++\\
+		$\cdot$ Java \\
+		$\cdot$ Python \\
+		\\
+		$\cdot$ Perl \\
+		$\cdot$ MATLAB \\
+		$\cdot$ Clear Case \& GIT\\
+		\\
+		$\cdot$ Bash \\
+		$\cdot$ Linux\\
+		$\cdot$ UNIX / POSIX\\
+		\\
+		$\cdot$ Networking\\
+		$\cdot$ Cyber Security\\
+		$\cdot$ Agile Scrum\\
+		
+		%$\cdot$ Jenkins\\
+		%$\cdot$ Clear Case\\
+		%$\cdot$ X86 Assembly\\
+		%$\cdot$ VMWare\\
+		%$\cdot$ \\
+	\end{multicols}
+	
+\end{rSection}
+
+%\vspace*{-\baselineskip}
+
+
+
+%---------------------------------------------------------------------------------------
+%	LEADERSHIP
+%---------------------------------------------------------------------------------------
+%\begin{rSection}{Leadership Experience}
+%\smallskip
+%Phi Kappa Tau Fraternity, Founding Father and E-Board Recruitment Chair \hfill {\bf November 2018 - Present}\\
+%One Tree Martial Arts, Black Belt Assistant Instructor\hfill {\bf January 2012 - September 2016}\\
+
+
+%\end{rSection}
+
+%\vspace*{-\baselineskip}
+
+%---------------------------------------------------------------------------------------
+%	LEADERSHIP
+%---------------------------------------------------------------------------------------
+%\begin{rSection}{Most Proud Of}
+%\smallskip
+%$\cdot$ Competed in the 2016 USASA National Slopestyle snowboarding competition at Copper Mountain Colorado\\
+%$\cdot$ Achieved my black belt in Taekwondo and volunteered as an assistant instructor at my Dojo\\
+
+
+%\end{rSection}
+
+\vspace*{-\baselineskip}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
